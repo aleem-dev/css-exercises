@@ -1,0 +1,17 @@
+/*CSS for exercise 2 The Odin Project CSS-Exercise, foundation*/
+.odd{
+    background:#f08080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#second-element{
+    color: blue;
+    font-size: 36px;
+}
+.third-element{
+font-size: 24px;
+}
+#forth-element{
+    background: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
+}
