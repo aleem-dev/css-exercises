@@ -1,0 +1,13 @@
+/*This is excercise 3 or The Odin Project, Grouping Selector*/
+.typograph{
+font-size: 28px;
+font-family: Helvetica,'Times New Roman', sans-serif;
+}
+.btn{
+    background: black;
+    color: white;
+    
+}
+.btn-highlight{
+    background: yellow;
+}
