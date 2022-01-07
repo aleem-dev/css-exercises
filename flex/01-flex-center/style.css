@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /*this is second method, we put jutify-content:center and align-items:center in contain.*/
 }
 
 .box {
@@ -12,4 +15,5 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  /* margin: auto; */ /*this is one method define display:flex in container, and margin:auto in item*/
 }
