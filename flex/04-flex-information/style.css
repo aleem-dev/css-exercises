@@ -10,6 +10,24 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  /* border: purple dotted 2px; */
+}
+
+.infocontainer{
+  /* border: green dotted 2px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap:20px;
+}
+.infoitems{
+  /* border: hotpink dotted 2px; */
+  width: 200px;
+  /* margin: 10px; */
 }
 
 /* do not edit this footer */
