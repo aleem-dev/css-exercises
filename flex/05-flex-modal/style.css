@@ -20,8 +20,17 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  justify-content: center;
 }
-
+.alerticon{
+  /* border: green dotted 2px; */
+  padding: 10px;
+}
+.alert{
+  /* border: purple dotted 2px; */
+  padding:0px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -33,8 +42,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: yellowgreen dotted 2px; */
 }
-
+.alertheader-btn{
+  /* border:orange dotted 2px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.header{
+  font-weight: 700;
+  font-size: 22px;
+}
+.alertdetails{
+  /* border: firebrick dotted 2px; */
+  margin: 10px;
+}
+.text{
+  font-weight: 400;
+  font-size: 16px;
+}
+.alertactions{
+  /* border: deeppink dotted 2px; */
+  margin: 10px;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -57,10 +89,14 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  font-weight:600;
+  font-size:12px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  font-weight:600;
+  font-size:12px;
 }
